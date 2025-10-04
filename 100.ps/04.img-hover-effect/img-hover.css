@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #555;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: #222;
+}
+
+.clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.clip1 {
+    background: url(https://i.pinimg.com/736x/53/9f/d6/539fd67aff6fb8b6f558da7773433340.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 38% 0, 35% 100%, 0 98%);
+
+
+}
+
+.clip2 {
+    background: url(https://i.pinimg.com/736x/29/41/5f/29415fda75f3af758e8ad825c0888943.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(33% 0, 73% 0, 72% 99%, 32% 98%);
+
+}
+
+.clip3 {
+    background: url(https://i.pinimg.com/736x/54/c2/6e/54c26ec6f9359437cb14a077e9b6b6e3.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(60% 0, 100% 0%, 99% 100%, 61% 100%);
+
+
+}
+
+.container:hover .clip {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+
+.container .clip:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
