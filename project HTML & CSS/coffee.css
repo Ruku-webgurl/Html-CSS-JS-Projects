@@ -1,0 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --main-color: rgb(255, 0, 55);
+    --primary-color:rgba(0, 0, 0, 0.388);
+}
+
+/* Utility styles */
+button{
+    padding: 10px 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Resert */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #100e0f;
+}
+
+/* Nav start */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+
+li{
+    display: inline;
+    list-style: none;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+li a:hover{
+    border-bottom: 2px solid var(--main-color);
+}
+
+.header{
+    background: url(https://images.pexels.com/photos/434213/pexels-photo-434213.jpeg?cs=srgb&dl=aroma-aromatic-art-434213.jpg&fm=jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Playfair Display", serif;
+    
+
+    /* flex-box */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a4a0a0;
+    position: relative;
+    text-align: center;
+    
+}
+
+.main-heading{
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+.primary-heading{
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+
+.main-btn{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    background: var(--main-color);
+    transform: translateY(60px);
+}
+/* our story start */
+#our-story{
+    height: 100vh;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(https://wallpapers.com/images/file/coffee-pictures-uegztqyrbgdhej56.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.title-style{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-family: "Playfair-Display", serif;
+    font-size: 4rem;
+    color: #fff;
+    transform: translateX(-100px);
+  
+}
+
+.line{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-120px);
+}
+
+.section-content p {
+    max-width: 500px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px o;
+
+}
+
+/* our story end */
+
+/* coffee start */
+
+.cofee-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+
+
+.img-2{
+    width: 400px;
+    height: 400px;
+}
+
+.title-two{
+    font-size: 3rem;
+    color: #fff;
+    font-family:"Playfair-Display", serif ;
+    
+}
+.content-section p {
+    max-width: 500px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: #fff;
+  
+
+}
+
+
+.product{
+    margin-top: 5rem;
+}
+
+.title-three{
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card{
+    border: 2px solid var(--main-color);
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+    
+}
+
+.img-one{
+    background: url(https://tse2.mm.bing.net/th/id/OIP.zMFtlEEJqLUrX3QgDoG-qwHaE8?pid=Api&P=0&h=180);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-two{
+    background: url(http://www.hdwallpaperspulse.com/wp-content/uploads/2017/09/22/beautiful-coffee-image-hd.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-three{
+    background: url(https://image.lexica.art/full_jpg/e571df80-57c7-4692-ab41-b9448139552f);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.card-title{
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.card .items p{
+    color: #fff;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+/* product end */
+
+footer{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+footer .container{
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+footer .heading-info{
+    margin-bottom: 20px;
+}
+
+footer p {
+    line-height: 25px;
+}
+
+span {
+    color: var(--main-color);
+}
+
+
+
+.para{
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+
+}
+
+/* footer end */
+
+/* respensive website  */
+
+@media only screen and (max-width:700) {
+
+    .main-heading,
+    .primary-heading{
+
+        
+
+        font-size: 2.5rem;
+       
+
+    }
+
+    #our-story{
+        text-align: center;
+    }
+
+    #our-story .title{
+        transform: translateX(50px);
+    }
+    #our-story .line{
+        display: none;
+    }
+
+    .content-section{
+        text-align: center;
+    }
+
+    #our-story .img-container{
+        margin-top: 5rem;
+        width: 50%;
+    }
+
+    .title{
+        margin: 0 auto;
+    }
+    .title-two{
+        margin: 0 auto;
+        
+    }
+    .title-three{
+        display: none;
+    }
+
+    .para{
+        display: none;
+    }
+
+    
+}
