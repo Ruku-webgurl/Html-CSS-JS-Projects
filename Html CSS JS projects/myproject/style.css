@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+p{
+    font-size: 5rem;
+}
+
+.js{
+    color: aqua;
+}
+
+.typed-text{
+    color: #20c20e;
+}
+
+.cursor{
+    background: #20c20e;
+}
+
+.name{
+    color:#20c20e ;
+}
